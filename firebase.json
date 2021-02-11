@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "abelhii",
+    "site": "alancoleman",
     "public": "dist",
     "ignore": [
       "firebase.json",

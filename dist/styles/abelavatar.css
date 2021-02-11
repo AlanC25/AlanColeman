@@ -1,0 +1,43 @@
+#abelavatar {
+    grid-area: avatar;
+    width: 500px;
+    max-width: 90vw;
+    cursor: pointer;
+}
+
+#abelavatar:hover .open-mouth {
+    opacity: 1;
+}
+
+.open-mouth {
+    opacity: 0;
+    transition: 0.05s ease-in-out;
+}
+
+.pink-fill {
+    fill: var(--fourth-color) !important;
+}
+
+@media (max-width: 1024px) {
+    #abelavatar {
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    #abelavatar {
+        width: 250px;
+    }
+}
+
+@media (max-width: 425px) {
+    #abelavatar {
+        width: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    #abelavatar {
+        display: none;
+    }
+}
