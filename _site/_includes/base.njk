@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+        <title>Alan Coleman</title>
+        <link rel="shortcut icon" href="{{ faviconURL }}" type="image/x-icon">
+        <link rel="icon" href="{{ faviconURL }}" type="image/x-icon">
+
+        <link href="https://fonts.googleapis.com/css?family=Muli|Playfair+Display|Quicksand|Comfortaa&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="{{ styleURL }}">
+
+        {% if extraStyle %}
+            <link rel="stylesheet" href="{{ extraStyle }}">
+        {% endif %}
+    </head>
+
+    <body>
+
+        {{ content | safe }}
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+        <!-- Greensock -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+
+        <!-- Firebase SDK -->
+        <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+        <script defer="defer" src="/__/firebase/7.17.1/firebase-app.js"></script>
+        <script defer="defer" src="/__/firebase/7.17.1/firebase-analytics.js"></script>
+
+        <!-- Add Firebase products that you want to use -->
+        <script defer="defer" src="/__/firebase/7.17.1/firebase-auth.js"></script>
+        <script defer="defer" src="/__/firebase/7.17.1/firebase-firestore.js"></script>
+
+        <!-- Initialize Firebase -->
+        <!-- <script defer="defer" src="/__/firebase/init.js"></script> -->
+        <script defer="defer" src="/scripts/init-firebase.js"></script>
+    </body>
+</html>
