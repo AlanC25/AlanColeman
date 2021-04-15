@@ -1,7 +1,7 @@
 ---
 layout: project.njk
 projectTitle: Seanchaí
-tags: ["Unity", "C#", "Game Dev", "Blender", "FMOD", "project"]
+tags: ["Unity", "C-Sharp", "Game Dev", "Blender", "FMOD", "project"]
 headerImg: ../../assets/images/seanchai.png
 ---
 
