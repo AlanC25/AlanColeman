@@ -11,11 +11,13 @@
 
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     font-size: var(--font-size);
     column-gap: 4rem;
     row-gap: 6rem;
-    margin: 4rem 0;
+    margin: 6rem 0;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .projects article { 
@@ -50,6 +52,7 @@
     }
 
     .projects {
+        grid-template-columns: 1fr 1fr;
         font-size: var(--md-font-size);
     }
 

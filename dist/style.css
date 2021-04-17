@@ -21,6 +21,8 @@
     --font-size: 21px;
     --md-font-size: 18px;
     --sm-font-size: 16px;
+
+    --left-right-padding: 0 15%;
 }
 
 html,
@@ -88,6 +90,7 @@ table th {
 
 .section {
     height: 100vh;
+    padding: var(--left-right-padding);
 }
 
 .section-padding {
@@ -134,8 +137,12 @@ table th {
 
 /* MEDIA QUERIES */
 
-/* For laptops and lower */
-@media (max-width: 1024px) {
+/* For widescreens and lower */
+@media (max-width: 1800px) {
+    .section {
+        --left-right-padding: 0 0;
+    }
+
     .section-padding {
         padding: 4rem 8rem;
     }

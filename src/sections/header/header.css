@@ -57,6 +57,8 @@
     .header .section-padding {
         padding: 1rem 2rem;
     }
+    .header .title h1 {
+        font-size: 1em;
 }
 
 
