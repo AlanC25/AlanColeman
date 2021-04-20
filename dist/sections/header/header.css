@@ -44,11 +44,12 @@
     }
 
     .header .avatar {
-        align-self: flex-start
+        align-self: flex-start;
     }
 
-    header .title h1 {
+    .header .title h1 {
         font-size: 1.5em;
+    }
 
     .header .subtitle {
         font-size: var(--lg-font-size);
