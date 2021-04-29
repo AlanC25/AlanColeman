@@ -1,7 +1,8 @@
 ---
 layout: project.njk
 projectTitle: BoneStorm
-tags: ["Unity", "C-Sharp", "Blender", "project"]
+type: project
+tags: ["unity", "c-sharp", "blender", "game dev", "project", "post"]
 headerImg: ../../assets/images/bonestorm.png
 ---
 

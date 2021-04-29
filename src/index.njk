@@ -4,7 +4,7 @@ faviconURL: assets/favicon/favicon.ico
 styleURL: style.css
 
 pagination:
-  data: collections.project
+  data: collections.post
   size: 10
   reverse: false
   alias: projects
@@ -19,11 +19,11 @@ pagination:
             </div>
             <div class="projects">
                 {% for project in projects %}
+                  {% if 'project' in project.data.tags %}
                     <article>
                         <img src="{{ project.data.headerImg }}">
                         <h2>{{ project.data.projectTitle }}</h2>
                         <time datetime="{{ project.date | dateIso }}">{{ project.date | dateReadable }}</time>
-
                         <p>
                             {% excerpt project %}
                         </p>
@@ -38,6 +38,38 @@ pagination:
                             Read more
                         </a>
                     </article>
+                  {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div id="interests" class="interests section" data-hash="interests">
+        <div class="section-padding">
+            <div class="title">
+                <h3>The man behind the projects.</h3>
+            </div>
+            <div class="projects">
+                {% for project in projects %}
+                  {% if 'interest' in project.data.tags %}
+                    <article>
+                        <img src="{{ project.data.headerImg }}">
+                        <h2>{{ project.data.projectTitle }}</h2>
+                        <time datetime="{{ project.date | dateIso }}">{{ project.date | dateReadable }}</time>
+                        <p>
+                            {% excerpt project %}
+                        </p>
+
+                        <div class="tags">
+                            <i class="fas fa-tags"></i>
+                            {% for tag in project.data.tags %}
+                                <a class="tag" href="{{'/tags/' + tag | url}}">{{ tag }}</a>
+                            {% endfor %}
+                        </div>
+                        <a class="read-more" href="{{ project.url | url }}" onclick="firebase.analytics().logEvent('read_more', { post: '{{ project.data.projectTitle }}' });" aria-label="Read more on {{ project.data.projectTitle }}">
+                            Read more
+                        </a>
+                    </article>
+                  {% endif %}
                 {% endfor %}
             </div>
         </div>
@@ -52,6 +84,9 @@ pagination:
             </li>
             <li>
                 <a href="#portfolio">portfolio</a>
+            </li>
+            <li>
+                <a href="#interests">interests</a>
             </li>
             <li>
                 <a href="#contact">contact</a>

@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--fourth-color);
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--fifth-color);
 }
 
 .contact .title {
@@ -37,7 +37,7 @@
 
 .contact .content a {
     font-size: 2em;
-    color: var(--fourth-color);
+    color: var(--primary-color);
 }
 
 /* MEDIA QUERIES */

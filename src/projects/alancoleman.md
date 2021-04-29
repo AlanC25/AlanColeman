@@ -1,7 +1,7 @@
 ---
 layout: project.njk
 projectTitle: alancoleman.com
-tags: ["javascript", "eleventy", "html", "css", "responsive", "project"]
+tags: ["javascript", "eleventy", "html", "css", "responsive", "project", "post"]
 headerImg: ../../assets/images/alanavatar.png
 ---
 

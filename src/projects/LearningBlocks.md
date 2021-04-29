@@ -1,7 +1,8 @@
 ---
 layout: project.njk
 projectTitle: Learning Blocks
-tags: ["Unity", "AR", "Vuforia", "C-Sharp", "project"]
+type: project
+tags: ["unity", "AR", "vuforia", "c-sharp", "project", "post"]
 headerImg: ../../assets/images/learningblocks.png
 ---
 

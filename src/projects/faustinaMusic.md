@@ -1,7 +1,8 @@
 ---
 layout: project.njk
 projectTitle: faustina-music.com
-tags: ["javascript", "html", "css", "bootstrap", "responsive", "project"]
+type: project
+tags: ["javascript", "html", "css", "bootstrap", "responsive", "project", "post"]
 headerImg: ../../assets/images/faustinaosullivan.png
 ---
 
