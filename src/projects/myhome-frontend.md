@@ -2,7 +2,7 @@
 layout: project.njk
 projectTitle: myhome.ie
 tags: ["angular", "javascript", "typescript", "html", "css", "bootstrap" ,"responsive", "node"]
-headerImg: ../../assets/images/myhome.webp
+headerImg: ../../assets/images/myhome.png
 ---
 
 <!-- excerpt start -->
