@@ -27,11 +27,10 @@ This website allows me the oppourtunity to share my recent projects to intereste
 
 | Technology                                                                                  | Description                                                                    |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [CSS scroll snap](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)        | Easy-to-use snapping animations! |
-| [CSS grid](https://youtu.be/7kVeCqQCxlk)                                                    | CSS GRID IS SO GOOD |
+| [CSS scroll snap](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)        | Easy-to-use snapping animations!                                               |
+| [CSS grid](https://youtu.be/7kVeCqQCxlk)                                                    | CSS GRID IS SO GOOD                                                            |
 | [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) | A module may contain a class or a library of functions for a specific purpose  |
 | [Greensock](https://www.cassie.codes/posts/making-a-lil-me-part-1/)                         | Great SVG animations are so much easier than I thought (with a great tutorial) |
-| [SVG animation](https://codepen.io/collection/nRJxyn)                                       | Had a fun time learning SVG animations and creating my Avatar for the homepage |
-| [eleventy](https://www.11ty.dev/)                                                           | I had not previosly used Eleventy and have enjoyed playing around with it! |
-| [Markdown](https://daringfireball.net/projects/markdown/syntax)                             | Markdown is a lightweight markup language with plain-text-formatting syntax |
-| [Git](https://docs.github.com/en/get-started/using-git/about-git)                           | Something that I've had experience with previously, but got a lot more comfortable with |
+| [SVG animation](https://codepen.io/abelhii/pen/XWXGBJR)                                     | Had a fun time creating this avatar of myself                                  |
+| [eleventy](https://www.11ty.dev/)                                                           | I had not previosly used Eleventy and have enjoyed playing around with it!     |
+| [Markdown](https://daringfireball.net/projects/markdown/syntax)                             | Markdown is a lightweight markup language with plain-text-formatting syntax    |
