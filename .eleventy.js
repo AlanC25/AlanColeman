@@ -20,7 +20,7 @@ module.exports = function (eleventyConfig) {
 	          includes: '_includes',
         },
         markdownTemplateEngine: "njk",
-        templateFormats: ["html", "njk", "md", "css", "js", "mjs", "png", "svg", "ico"],
+        templateFormats: ["html", "njk", "md", "css", "js", "mjs", "png", "svg", "ico", "webp"],
     };
 };
 
