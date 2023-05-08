@@ -1,0 +1,61 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--fourth-color);
+    background-color: var(--primary-color);
+}
+
+.contact .title {
+    text-align: center;
+}
+
+.contact .title h2 a {
+    color: var(--third-color);
+}
+
+.contact .title h2 a:after {
+    opacity: 0;
+    margin-right: -0.95em;
+    transition: all 0.25s ease;
+    content: 'V';
+}
+
+.contact .title h2 a:hover:after {
+    opacity: 1;
+    margin-right: -0.3em;
+}
+
+.contact .content {
+    display: grid;
+    column-gap: 1.5em;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    font-size: var(--title-font-size);
+}
+
+.contact .content a {
+    font-size: 2em;
+    color: var(--fourth-color);
+}
+
+/* MEDIA QUERIES */
+
+/* For tablets and lower */
+@media (max-width: 768px) {
+    .contact .content {
+        column-gap: 1em;
+    }
+
+    .contact .content a {
+        font-size: 1.5em;
+    }
+}
+
+/* For phones and lower */
+@media (max-width: 425px) {
+    .contact .content a {
+        font-size: 1em;
+    }
+}
