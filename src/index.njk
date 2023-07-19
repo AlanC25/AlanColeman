@@ -25,7 +25,7 @@ pagination:
                         <time datetime="{{ project.date | dateIso }}">{{ project.date | dateReadable }}</time>
 
                         <p>
-                            {% excerpt project %}
+                            {{ excerpt project }}
                         </p>
 
                         <div class="tags">
