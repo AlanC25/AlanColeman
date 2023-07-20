@@ -1,7 +1,7 @@
 ---
 layout: project.njk
 projectTitle: myhome.ie
-tags: ["angular", "javascript", "typescript", "html", "css", "bootstrap" ,"responsive", "node"]
+tags: ["angular", "javascript", "typescript", "html", "css", "bootstrap" ,"responsive", "node", "project"]
 headerImg: ../../assets/images/myhome.png
 ---
 
