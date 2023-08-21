@@ -1,0 +1,168 @@
+@import "./styles/helpers.css";
+@import "./styles/nav.css";
+@import "./styles/alanavatar.css";
+@import "./styles/portfolio.css";
+@import "./sections/header/header.css";
+@import "./sections/about/about.css";
+@import "./sections/contact/contact.css";
+
+/* https://paletton.com/#uid=34b0u0kvou7jGB6oXvWxjnMDviB */
+:root {
+    --primary-color: #fbeec1;
+    --secondary-color: #659dbd;
+    --third-color: #daad86;
+    --fourth-color: #daad86;
+    --fifth-color: #659dbd;
+    --text-color: #fbeec1;
+    --inverse-text-color: #daad86;
+    --link-color: #00cfff;
+    --title-font-size: 48px;
+    --lg-font-size: 32px;
+    --font-size: 21px;
+    --md-font-size: 18px;
+    --sm-font-size: 16px;
+}
+
+html,
+body {
+    font-family: "Muli";
+    color: var(--text-color);
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+p {
+    max-width: 60ch;
+    line-height: 1.8rem;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #04a3c7;
+}
+
+table {
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--third-color);
+}
+table tr:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+table th,
+table td {
+    padding: 0.5em;
+}
+
+table th {
+    color: white;
+    background-color: var(--third-color);;
+}
+
+/* Custom classes */
+
+.title {
+    font-family: "Comfortaa", cursive;
+    font-size: var(--title-font-size);
+    position: relative;
+}
+
+.subtitle {
+    font-size: var(--lg-font-size);
+}
+
+.content {
+    font-size: var(--lg-font-size);
+    padding: 0rem 2rem;
+}
+
+.section {
+    height: 100vh;
+}
+
+.section-padding {
+    padding: 4rem 16rem;
+}
+
+/* TAGS */
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem 0;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: var(--sm-font-size);
+    color: var(--third-color);
+}
+
+.tag {
+    position: relative;
+    cursor: pointer;
+    color: var(--third-color);
+}
+
+.tag:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    width: 0;
+    background-color: var(--third-color);
+    transition: all ease 0.3s;
+}
+
+.tag:hover {
+    color: var(--third-color);
+}
+.tag:hover:after {
+    width: 100%;
+}
+
+/* End TAGS */
+
+/* MEDIA QUERIES */
+
+/* For laptops and lower */
+@media (max-width: 1024px) {
+    .section-padding {
+        padding: 4rem 8rem;
+    }
+}
+
+/* For tablets and lower */
+@media (max-width: 768px) {
+    .title {
+        font-size: var(--lg-font-size);
+    }
+
+    .subtitle {
+        font-size: var(--lg-font-size);
+    }
+
+    .content {
+        font-size: var(--font-size);
+    }
+
+    .section-padding {
+        padding: 2rem 4rem;
+    }
+}
+
+/* For phones and lower */
+@media (max-width: 425px) {
+    .section-padding {
+        padding: 1rem 2rem;
+    }
+}

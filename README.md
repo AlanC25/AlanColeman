@@ -1,2 +1,1 @@
-# AlanColeman
-Personal Website / Portfolio
+# Personal Website for Alan Coleman
