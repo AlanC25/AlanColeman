@@ -1,7 +1,7 @@
 ---
 layout: project.njk
 projectTitle: They came from Upper Space!
-tags: ["Unity", "C#", "Blender", "project"]
+tags: ["Unity", "C-Sharp", "Blender", "project"]
 headerImg: ../../assets/images/upperspace.png
 ---
 
